@@ -29,7 +29,7 @@ let minute = d.getMinutes(); // get current minute
 
   if (hour < 0 && minute < 9 && minute < 59)
     console.log("Good morning");
-  else if (hour <= 10 && hour <16 && minute < 59 )
+  else if (hour <= 9 && hour <16 && minute < 59 )
     console.log("Good aferternoon");
   else if (hour < 17 && hour < 23 && minute < 59)
     console.log("good evening");
